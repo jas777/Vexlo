@@ -1,0 +1,15 @@
+[package]
+name = "vexlo"
+version = "0.1.0"
+authors = ["jas777 <jas.czeszejko@wp.pl>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+kankyo = "0.3"
+log = "0.4"
+env_logger = "0.7"
+async-trait = "0.1.36"
+tokio = { version = "0.2.21", features = ["full"] }
+twilight = { branch = "trunk", git = "https://github.com/twilight-rs/twilight" }
